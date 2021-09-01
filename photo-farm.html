@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-farm{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo-album{
+            height: 270px;
+            width: 300px;
+            border: 10px solid goldenrod;
+            position: relative;
+            left: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            overflow: hidden;
+            
+        }
+        .photo-album .photo img{
+            width: 60%;
+           
+            align-items: center;
+            position: relative;
+            left: 50px;
+            
+
+        }
+        .photo-album:hover .photo img{
+            transform: scale(1.2);
+            transition: transform 2s;
+        }
+
+        .photo-dit{
+           position: absolute;
+           top: 0;
+           display: none;
+           height: 270px;
+            width: 300px;
+        }
+        .photo-album:hover .photo-dit{
+            display: block;
+            background-color:rgb(218, 165, 32,0.45) 
+        }
+        .photo-album:hover .photo-dit h3{
+            color: white;
+            background-color: black;
+            text-align:center;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <h1>My Crush</h1>
+    <section class="photo-farm">
+     <div class="photo-album">
+         <div class="photo">
+             <img src="image/111111.png" alt="">
+            </div>
+            <div class="photo-dit">
+                <h3>love</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellat quis, ea blanditiis libero odio? Fugit corporis dolore suscipit est.</p>
+            </div>
+     </div>
+     <div class="photo-album">
+        <div class="photo">
+            <img src="image/111111.png" alt="">
+           </div>
+           <div class="photo-dit">
+               <h3>love</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellat quis, ea blanditiis libero odio? Fugit corporis dolore suscipit est.</p>
+           </div>
+    </div>
+    <div class="photo-album">
+        <div class="photo">
+            <img src="image/111111.png" alt="">
+           </div>
+           <div class="photo-dit">
+               <h3>love</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellat quis, ea blanditiis libero odio? Fugit corporis dolore suscipit est.</p>
+           </div>
+    </div>
+    <div class="photo-album">
+        <div class="photo">
+            <img src="image/111111.png" alt="">
+           </div>
+           <div class="photo-dit">
+               <h3>love</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellat quis, ea blanditiis libero odio? Fugit corporis dolore suscipit est.</p>
+           </div>
+    </div>
+    <div class="photo-album">
+        <div class="photo">
+            <img src="image/111111.png" alt="">
+           </div>
+           <div class="photo-dit">
+               <h3>love</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellat quis, ea blanditiis libero odio? Fugit corporis dolore suscipit est.</p>
+           </div>
+    </div>
+    <div class="photo-album">
+        <div class="photo">
+            <img src="image/111111.png" alt="">
+           </div>
+           <div class="photo-dit">
+               <h3>love</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellat quis, ea blanditiis libero odio? Fugit corporis dolore suscipit est.</p>
+           </div>
+    </div>
+    </section>
+</body>
+</html>
